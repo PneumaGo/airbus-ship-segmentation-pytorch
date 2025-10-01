@@ -1,0 +1,20 @@
+gradio==5.34.2
+ultralytics==8.0.200
+opencv-python==4.11.0.86
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1 # Можно попробовать удалить, если нет проблем
+numpy==1.26.4
+pandas>=2.0.0
+tqdm>=4.65.0
+matplotlib>=3.7.0
+Pillow
+PyYAML # Для конфигурации Ultralytics
+# ffmpy==0.6.0 # Раскомментируйте, если столкнетесь с проблемами записи/обработки видео
+# fastapi # Эти могут быть полезны, если возникают проблемы с зависимостями Gradio/FastAPI
+# uvicorn
+# httpx
+# pydantic
+# aiofiles
+# anyio
+# patched-yolo-infer==1.3.8 # Если это ваш кастомный пакет, то его нужно обязательно добавить
